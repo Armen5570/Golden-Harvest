@@ -1,0 +1,127 @@
+body{
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     margin-top: -250px; 
+     margin-left: -800px;
+}
+
+.has-sticker{
+    position:relative;
+    display:inline-block;
+    font-size:400px;
+}
+
+.has-sticker__ico{
+    position:absolute;
+    width:0.7em;
+    left:calc(100% - 0.37em);
+    bottom:10%;
+}
+
+.fixed{
+    width: 550px;
+    height: 60px;
+    border-radius: 10px;
+    background: rgb(28, 28, 28);
+    position: fixed;
+     bottom: 20px;
+    left: 50%; 
+    transform: translateX(-50%);
+    transition: all .3s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.fixed:hover{
+    transform: translateX(-50%) translateY(-10px);
+    box-shadow: 0 10px 25px black;
+}
+
+
+.corn-text {
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    background: linear-gradient(90deg, #ffd700, #ffb300, #ffe066);
+    background-size: 200%;
+    -webkit-background-clip: text;
+    color: transparent;
+    animation: cornGlow 25s infinite linear;
+    letter-spacing: 15px;
+    background-image: url("https://png.pngtree.com/png-clipart/20250514/original/pngtree-natural-golden-raspberries-with-leaves-png-image_20963059.png");
+    background-size: contain;
+    -webkit-text-fill-color: transparent;
+    
+}
+
+@keyframes cornGlow {
+    0% {
+        background-position: 0%;
+    }
+    100% {
+        background-position: 200%;
+    }
+}
+
+
+.contact {
+    font-family: 'Outfit', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+    background: linear-gradient(
+        90deg,
+        white,
+        #ddd,
+        white,
+        #aaa,
+        white
+    );
+    background-size: 300%;
+    -webkit-background-clip: text;
+    color: transparent;
+    
+    animation: whiteGlow 100s infinite linear;
+    text-shadow: 0 0 15px white;
+    background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/25d45014-8cc3-4c98-b02c-5a0cf3a55ddd/ddfrpyt-7b2f2fe3-9f1c-4048-98a2-f26a877dd5de.png/v1/fill/w_900,h_667/white_grapes_on_a_transparent_background__by_prussiaart_ddfrpyt-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NjY3IiwicGF0aCI6Ii9mLzI1ZDQ1MDE0LThjYzMtNGM5OC1iMDJjLTVhMGNmM2E1NWRkZC9kZGZycHl0LTdiMmYyZmUzLTlmMWMtNDA0OC05OGEyLWYyNmE4NzdkZDVkZS5wbmciLCJ3aWR0aCI6Ijw9OTAwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.hvaUERe-YN4cHc1ojEIczCU-2nSd_BL-kFvOrQTOtg4");
+    background-size: contain;
+    -webkit-text-fill-color: transparent;
+}
+
+@keyframes whiteGlow {
+    0% {
+        background-position: 0%;
+    }
+
+    100% {
+        background-position: 300%;
+    }
+}
+
+
+.img2{
+    margin-left: 20px;
+}
+
+.img1{
+    margin-left: 10px;
+}
+
+
+.fruits-img1{
+margin-top: 50px;
+margin-left: 0px;
+}
+
+
+
+
+
+.fruits-img3{
+    margin-top: 180px;
+    margin-left: -1070px;
+}
